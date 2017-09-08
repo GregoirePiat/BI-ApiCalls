@@ -120,7 +120,7 @@ class ApiCall
 
     private function extractCredentials(){
 
-        $credentialsPath = dirname(__FILE__) . "/../Credentials/Credentials.json";
+        $credentialsPath = dirname(__FILE__) . "/../Credentials/credentials.json";
 
         if (file_exists($credentialsPath)) {
             $jsonContent = json_decode(file_get_contents($credentialsPath));
