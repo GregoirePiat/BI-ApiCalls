@@ -8,3 +8,6 @@ Files stored on /data folder.
 
 ### Cron
 `* * * * * /usr/bin/php PathToRepo/Scripts/VelovApi.php`
+
+### Get size of data folder
+`du -h data/`
