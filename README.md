@@ -1,6 +1,6 @@
 # BI-ApiCalls
 
-## API Velov
+## APIs GrandLyon
 Files stored on /data/XXXX folder.
 
 ### Change file auth
