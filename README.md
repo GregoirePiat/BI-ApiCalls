@@ -7,4 +7,4 @@ Files stored on /data folder.
 `chmod +x VelovApi.php`
 
 ### Cron
-`* * * * * /usr/bin/php PathToRepo/VelovApi.php`
+`* * * * * /usr/bin/php PathToRepo/Scripts/VelovApi.php`
