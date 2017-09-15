@@ -16,4 +16,9 @@ $incidentsApi = new \ApiCalls\ApiCall("https://download.data.grandlyon.com/wfs/r
 
 $parcRelaisApi = new \ApiCalls\ApiCall("https://download.data.grandlyon.com/wfs/rdata?SERVICE=WFS&VERSION=2.0.0&outputformat=GEOJSON&maxfeatures=30&request=GetFeature&typename=tcl_sytral.tclparcrelaistr&SRSNAME=urn:ogc:def:crs:EPSG::4171", "PARCSRELAIS", true);
 
+$alertesTcl = new \ApiCalls\ApiCall("https://download.data.grandlyon.com/wfs/rdata?SERVICE=WFS&VERSION=2.0.0&outputformat=GEOJSON&maxfeatures=2000&request=GetFeature&typename=tcl_sytral.tclalertetrafic&SRSNAME=urn:ogc:def:crs:EPSG::4171", "ALERTESTCL", true);
+
+
+
+
 ?>
