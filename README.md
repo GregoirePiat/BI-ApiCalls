@@ -14,3 +14,6 @@ Files stored on /data/XXXX folder.
 
 ### Concat all files into one and delimit with ','
 `find . -type f -not -name all.json -exec cat {} \; -exec echo "," \; > all.json`
+
+### Download file using SSH
+`scp -P PORT XXX@XX.XX.XX.XX:/REMOTEPATH LOCALPATH`
