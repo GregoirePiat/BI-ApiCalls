@@ -11,3 +11,6 @@ Files stored on /data/XXXX folder.
 
 ### Get size of data folder
 `du -h data/`
+
+### Concat all files into one and delimit with ','
+`find . -type f -not -name all.json -exec cat {} \; -exec echo "," \; > all.json`
