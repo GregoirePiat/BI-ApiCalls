@@ -17,3 +17,6 @@ Files stored on /data/XXXX folder.
 
 ### Download file using SSH
 `scp -P PORT XXX@XX.XX.XX.XX:/REMOTEPATH LOCALPATH`
+
+### Replace ":" by "-" on all file names of a directory
+`for f in *:*; do mv -v "$f" $(echo "$f" | tr ':' '-'); done`
